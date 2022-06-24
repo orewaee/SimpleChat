@@ -1,0 +1,14 @@
+# Prefix for global message
+prefix: "!"
+
+# Radius in which local messages will be visible
+radius: 16
+
+# %name% - will be replaced with the nickname of the sender of the message
+# %message% - will be replaced with a message
+
+# Global message format
+global-message: "#ffb703⚡#FFFFFF %name% › %message%"
+
+# Local message format
+local-message: "#abafb4%name% › %message%"
