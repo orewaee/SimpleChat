@@ -7,8 +7,8 @@ radius: 16
 # %name% - will be replaced with the nickname of the sender of the message
 # %message% - will be replaced with a message
 
-# Global message format
+# Global message template
 global-message: "#ffb703⚡#FFFFFF %name% › %message%"
 
-# Local message format
+# Local message template
 local-message: "#abafb4%name% › %message%"

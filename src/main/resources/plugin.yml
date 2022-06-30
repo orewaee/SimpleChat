@@ -1,5 +1,10 @@
 name: "SimpleChat"
-version: 1.0.0
+version: 1.1.0
 api-version: 1.19
 author: orewaee
 main: xyz.orewaee.SimpleChat
+commands:
+    simplechat:
+        description: "The main command of the SimpleChat plugin"
+        usage: /<command> [info|help|reload]
+
