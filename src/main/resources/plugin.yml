@@ -7,4 +7,8 @@ commands:
     simplechat:
         description: "The main command of the SimpleChat plugin"
         usage: /<command> [info|help|reload]
+permissions:
+    simplechat.reload:
+        description: Allows the use of the /simplechat reload command
+
 

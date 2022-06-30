@@ -13,6 +13,12 @@ public class SimpleChatCommand implements CommandExecutor {
         if ( args.length == 0 ) return false;
 
         if ( args[0].equalsIgnoreCase( "reload" ) ) {
+            if ( !sender.hasPermission( "simple" ) ) {
+                sender.sendMessage( Utils.colorize( "#e63946You do not have permission to use this command" ) );
+
+                return true;
+            }
+
             SimpleChat.getInstance().reloadConfig();
 
             sender.sendMessage( Utils.colorize( "#8ac926Config successfully reloaded&r" ) );
